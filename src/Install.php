@@ -4,7 +4,7 @@ namespace Zhaojiaxuan\ManCms;
 class Install
 {
     // 是否为插件
-    const WEBMAN_PLUGIN = true;
+    const WEBMAN_PLUGIN = false;
 
     /**
      * @var array
