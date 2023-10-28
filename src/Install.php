@@ -1,5 +1,5 @@
 <?php
-namespace Webman\Admin;
+namespace Zhaojiaxuan\ManCms;
 
 class Install
 {
