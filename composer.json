@@ -1,0 +1,30 @@
+{
+    "name": "zhaojiaxuan/man-cms",
+    "type": "project",
+    "description": "得力于webman高性能PHP常驻内存框架，诞生了ManCms。",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhaojiaxuan\\ManCms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZhaoJiaXuan",
+            "email": "2687409344@qq.com"
+        }
+    ],
+    "require": {
+        "workerman/webman-framework": ">=1.4",
+        "illuminate/database": ">=7.30",
+        "illuminate/pagination": ">=7.30",
+        "illuminate/events": ">=7.30",
+        "intervention/image": "^2.7",
+        "webman/event": "^1.0",
+        "webman/captcha": "^1.0.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "webman/think-orm": "^1.1",
+        "topthink/think-template": "^3.0",
+        "webman/stomp": "^1.1"
+    }
+}
